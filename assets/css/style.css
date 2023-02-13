@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500;1,700;1,800&display=swap');
+body{
+    /* font-family: "Nunito"; */
+    background: #e0ffff;
+    /* margin: 10px; */
+}
+.navbar{
+    box-shadow: 2px 2px 1px 1px rgb(124, 122, 122);
+}
+.navbar-brand{
+    font-family: "Nunito";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(51, 3, 3);
+    text-shadow: .1em .1em 0 hsl(202, 58%, 55%);
+}
+
+.navbar-brand:hover{
+    color: rgb(206, 206, 216);
+}
+
+.card{
+    background-color: rgb(205, 219, 231);
+    box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    font-family: "Nunito";
+}
+.card:hover {
+    transform: translateY(-1px);
+    box-shadow: 3px 10px 14px 2px rgba(0, 0, 0, 0.25);
+}
+
+
