@@ -1,7 +1,7 @@
 //require the library
 const mongoose = require("mongoose");
 
-// here we are using the MongoDB Url we defined in our ENV file
+// here we are using the MongoDB Url 
 const DB_URL = "mongodb://localhost:27017/Issue_Tracker";
 //connect to the database
 mongoose 
